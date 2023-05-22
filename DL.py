@@ -1,11 +1,11 @@
-# ÀÚ·á ÀÎ¿ë
+# ìë£Œ ì¸ìš©
 # The TensorFlow Authors (open source)
 # https://colab.research.google.com/github/tensorflow/docs-l10n/blob/master/site/ko/tutorials/load_data/images.ipynb?hl=ko#scrollTo=ufPx7EiCiqgR
 
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import pathlib
-import time, os
+import time
 
 #---------------------------------------------------------------------------------
 
@@ -28,7 +28,7 @@ if opt == 1:
     img_width = 180
     num_class = 5
 
-# Æú´õ ¾È¿¡ Æú´õ°¡ ¶Ç µé¾îÀÖ±â ¶§¹®¿¡ Á÷Á¢ cirtus Æú´õ¸¦ ¸¸µé¾î¾ß ÇÔ
+# ï¿½ï¿½ï¿½ï¿½ ï¿½È¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ö±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ cirtus ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 elif opt == 2:
     dataset_url = "https://prod-dcd-datasets-cache-zipfiles.s3.eu-west-1.amazonaws.com/3f83gxmv57-2.zip"
     fname = 'cirtus'
