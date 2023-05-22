@@ -1,3 +1,4 @@
+# 자료 인용
 # The TensorFlow Authors (open source)
 # https://colab.research.google.com/github/tensorflow/docs-l10n/blob/master/site/ko/tutorials/load_data/images.ipynb?hl=ko#scrollTo=ufPx7EiCiqgR
 
