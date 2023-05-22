@@ -28,7 +28,7 @@ if opt == 1:
     img_width = 180
     num_class = 5
 
-# ���� �ȿ� ������ �� ����ֱ� ������ ���� cirtus ������ ������ ��
+# 폴더 안에 폴더가 또 들어있기 때문에 직접 cirtus 폴더를 만들어야 함
 elif opt == 2:
     dataset_url = "https://prod-dcd-datasets-cache-zipfiles.s3.eu-west-1.amazonaws.com/3f83gxmv57-2.zip"
     fname = 'cirtus'
