@@ -1,9 +1,10 @@
-# -*- encoding= cp949 -*-
+# The TensorFlow Authors (open source)
+# https://colab.research.google.com/github/tensorflow/docs-l10n/blob/master/site/ko/tutorials/load_data/images.ipynb?hl=ko#scrollTo=ufPx7EiCiqgR
 
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import pathlib
-import time, os
+import time
 
 #---------------------------------------------------------------------------------
 
@@ -26,7 +27,7 @@ if opt == 1:
     img_width = 180
     num_class = 5
 
-# Æú´õ ¾È¿¡ Æú´õ°¡ ¶Ç µé¾îÀÖ±â ¶§¹®¿¡ Á÷Á¢ cirtus Æú´õ¸¦ ¸¸µé¾î¾ß ÇÔ
+# í´ë” ì•ˆì— í´ë”ê°€ ë˜ ë“¤ì–´ìˆê¸° ë•Œë¬¸ì— ì§ì ‘ cirtus í´ë”ë¥¼ ë§Œë“¤ì–´ì•¼ í•¨
 elif opt == 2:
     dataset_url = "https://prod-dcd-datasets-cache-zipfiles.s3.eu-west-1.amazonaws.com/3f83gxmv57-2.zip"
     fname = 'cirtus'
@@ -132,6 +133,3 @@ plt.plot(epoch, val_loss, "b", label = "Validation loss")
 plt.title("Training and validation loss")
 plt.legend()
 plt.show()
-
-# The TensorFlow Authors (open source)
-# https://colab.research.google.com/github/tensorflow/docs-l10n/blob/master/site/ko/tutorials/load_data/images.ipynb?hl=ko#scrollTo=ufPx7EiCiqgR
